@@ -1,0 +1,18 @@
+# RegenManager by EastRane
+
+# Do not change it
+version: 1.0
+
+# Available options: en_US, uk_UA, ru_RU
+locale: en_US
+
+# How often should a player's health regenerate? (in ticks: 20 ticks = 1 second)
+# Default Minecraft 1.20 value is 80
+regeneration-period: 80
+
+# How soon should a player start regenerating after taking damage? (in ticks: 20 ticks = 1 second)
+# Default Minecraft 1.20 value is 80
+regeneration-delay: 80
+
+# Not sure if there's any point in leaving hunger enabled with plugin's regeneration logic, but still
+disable-hunger: true

@@ -1,0 +1,15 @@
+name: RegenManager
+version: '${version}'
+main: me.eastrane.RegenManager
+api-version: '1.13'
+authors: [ EastRane ]
+commands:
+  regenmanager:
+    description: Main command
+    usage: /regenmanager
+    aliases: [rm]
+    permission: regenmanager.admin
+permissions:
+  regenmanager.admin:
+    description: Allows someone to run plugin's commands
+    default: op

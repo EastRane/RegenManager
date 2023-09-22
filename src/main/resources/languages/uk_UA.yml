@@ -1,0 +1,22 @@
+plugin_prefix: "&6[RegenManager] &r"
+
+usage: "&6RegenManager v.%s від EastRane\n
+\n
+Допомога:&r&a\n
+&6/rm &a- головна команда\n
+&6/rm period <число> &a- встановити інтервал регенерації\n
+&6/rm delay <число> &a- встановити затримку регенерації\n
+&6/rm hunger <enable/disable> &a- змінити стан голоду\n
+&6/rm reload &a- перезавантажити конфігурацію"
+
+regeneration_period_set: "&aІнтервал регенерації успішно встановлений на %d."
+regeneration_delay_set: "&aЗатримка регенерації успішно встановлена на %d."
+hunger_enabled: "&aГолод успішно увімкнено."
+hunger_disabled: "&aГолод успішно вимкнуто."
+config_reloaded: "&aФайл конфігурації успішно перезавантажений."
+
+argument_not_number: "&cВказаний аргумент не є числом."
+too_few_arguments: "&cЗамало аргументів. Уведіть /rm для допомоги."
+too_many_arguments: "&cЗабагато аргументів. Уведіть /rm для допомоги."
+wrong_argument: "&cНеправильний аргумент. Доступні: %s."
+wrong_subcommand: "&cНеправильна підкоманда. Доступні: %s."

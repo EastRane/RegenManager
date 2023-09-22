@@ -1,0 +1,22 @@
+plugin_prefix: "&6[RegenManager] &r"
+
+usage: "&6RegenManager v.%s by EastRane\n
+\n
+Help:&r&a\n
+&6/rm &a- main command\n
+&6/rm period <amount> &a- set regeneration period\n
+&6/rm delay <amount> &a- set regeneration delay\n
+&6/rm hunger <enable/disable> &a- change hunger state\n
+&6/rm reload &a- reload configuration"
+
+regeneration_period_set: "&aThe regeneration interval is successfully set to %d."
+regeneration_delay_set: "&aThe regeneration delay is successfully set to %d."
+hunger_enabled: "&aHunger has been successfully enabled."
+hunger_disabled: "&aHunger has been successfully disabled."
+config_reloaded: "&aThe configuration file has been successfully reloaded."
+
+argument_not_number: "&cThe specified argument is not a number."
+too_few_arguments: "&cToo few arguments. Type /rm for help."
+too_many_arguments: "&cToo many arguments. Type /rm for help."
+wrong_argument: "&cThe argument is incorrect. Available: %s."
+wrong_subcommand: "&cInvalid subcommand. Available: %s."
